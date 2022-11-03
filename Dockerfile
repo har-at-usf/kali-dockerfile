@@ -48,6 +48,7 @@ RUN apt -y update && \
         arp-scan \
         iputils-ping \
         testssl.sh \
+        sslscan \
         && \
     #
     # These two libraries are required for Nikto to scan some SSL/HTTPS.
