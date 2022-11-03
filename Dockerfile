@@ -76,7 +76,7 @@ RUN apt -y update && \
     cd /build && \
     git clone https://github.com/s0md3v/Arjun && \
     cd Arjun && \
-    python3 setup.py install && \
+    pip install -e install && \
     rm -rf /build/* && \
 #
 # Build the JWT Tool.
